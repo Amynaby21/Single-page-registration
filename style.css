@@ -1,0 +1,93 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+* {
+  box-sizing: border-box;
+}
+html{
+  background-color: black;
+  padding-top: 75px;
+  padding-right: 200px;
+  padding-bottom: 75px;
+  padding-left: 200px;
+}
+body{
+  background-image:url(bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 100%;
+  display: flex;
+  max-width: 110ch;
+  min-height: 95vh;
+  margin: 0 auto;
+  gap: 2rem;
+  font-family: 'Poppins';
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.col-1 .col-2 {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.col-1 {
+  width:50%;
+  justify-content: center;
+  margin: auto;
+  padding: 50px;
+}
+.col-1 h1 {
+  font-weight: 700;
+  color: white;
+}
+.col-1 p  {
+  font-weight: 500;
+  color: white
+}
+
+.col-2 form{
+  background-color: white;
+  padding: 40px 10%;
+  border-radius: 4px;
+}
+
+.try {
+  background-color: hsl(248, 32%, 49%);
+  border-radius:4px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 7px 0px rgba(0,0,0,0.2);
+  font-size: 400;
+  color:white
+}
+.input-field {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid hsl(246, 25%, 77%);
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 1rem 0 .5rem 0;
+  font-weight: 500;
+}
+
+.submit {
+  background-color: hsl(154, 59%, 51%);
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+span {
+  color: hsl(246, 25%, 77%);
+  font-weight: 400;
+}
+a {
+  font-weight: 400;
+  color: hsl(0, 100%, 74%);
+}
